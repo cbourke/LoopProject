@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Multiplication Table</title>
+
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/themes/smoothness/jquery-ui.css" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
+
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <script src="mult.js"></script>
+  </head>
+  <body>
+
+
+  <div class="container">
+
+    <div class="jumbotron">
+     <h1>Multiplication Table</h1>
+        <p>Enter an integer to generate a multiplication table below.</p>
+        <input type="text" id="inputN" value="5"></input>
+      <button class="btn btn-default" onclick="generate()">Generate</button>
+    </div>
+
+    <div class="container col-md-12">
+
+    <table id="multTable" class="table">
+        <tbody></tbody>
+    </table>
+      </div>
+      </div>
+
+  </body>
+</html>
+
+
+

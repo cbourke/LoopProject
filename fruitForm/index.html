@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Fruit Form</title>
+
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/themes/smoothness/jquery-ui.css" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
+
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <script src="fruit.js"></script>
+  </head>
+  <body>
+
+
+  <div class="container">
+
+    <div class="jumbotron">
+     <h1>Fruit Form</h1>
+        <p>Test if you generated the radio button correctly by clicking the button.</p>
+      <button class="btn btn-default" onclick="test()">Test</button>
+    </div>
+
+    <div class="container col-md-12">
+    <div class="container">
+      <form id="mainForm">
+        <h3>Likes:</h3>
+        <div class="checkbox-inline"><input type="checkbox" name="likes" value="turtles"> I like turtles</div>
+        <div class="checkbox-inline"><input type="checkbox" name="likes" value="noodles"> I liek noodles</div>
+        <h3>Favorite Fruit:</h3>
+          <div id="fruitDiv">
+          </div>
+      </form>
+    </div>
+    </div>
+  </div>
+
+  </body>
+</html>
+
+
+
